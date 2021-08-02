@@ -111,8 +111,8 @@ footer {
 }
 .profile-pic,
 .work {
-  height: auto;
-  width: 70%;
+  height: 400px;
+  width: auto;
   margin: 0 auto 25px;
 }
 .work,
@@ -121,7 +121,6 @@ footer {
   margin-top: 35px;
 }
 
-/** Base Typography **/
 strong {
   font-weight: bold;
   padding-left: 15px;
@@ -139,8 +138,6 @@ footer p,
 footer p a {
   color: #333;
 }
-h1 {
-}
 h2 {
   margin-bottom: 35px;
   text-transform: uppercase;
@@ -154,7 +151,16 @@ h3 {
   font-weight: lighter;
 }
 
-/** 768px Tablet media queries **/
+.name {
+  color: lightblue !important;
+}
+
+.footer .social-media {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+}
+
 @media all and (min-width: 768px) {
   .wrapper {
     flex-direction: row;
@@ -204,10 +210,6 @@ h3 {
   .footer .personal-info p {
     margin-right: 14px;
   }
-  .footer .social-media {
-    display: flex;
-    column-gap: 4px;
-  }
   footer .back-to-top {
     display: none;
   }
@@ -219,7 +221,7 @@ h3 {
     width: 35%;
     text-transform: uppercase;
   }
-  /** Typography **/
+
   strong {
     line-height: 2rem;
   }
@@ -265,7 +267,6 @@ h3 {
     line-height: 2.4rem;
   }
 
-  /** Typography **/
   .name {
     text-align: left;
   }
