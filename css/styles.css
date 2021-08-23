@@ -184,6 +184,13 @@ h3 {
     width: 300px;
     height: auto;
   }
+
+  @media only screen and (max-width: 460px) {
+    .profile-pic {
+      width: 100%;
+    }
+  }
+
   .work-item {
     width: 49%;
   }
