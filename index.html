@@ -128,18 +128,18 @@
                 <form action="">
                     <label for="fname">სახელი</label>
                     <input type="text" id="fname" name="firstname"
-                        placeholder="ჩაწერეთ სახელი..">
+                        placeholder="ჩაწერეთ სახელი.." required>
 
                     <label for="lname">გვარი</label>
                     <input type="text" id="lname" name="lastname"
-                        placeholder="ჩაწერეთ გვარი..">
+                        placeholder="ჩაწერეთ გვარი.." required>
 
                     <label for="email">მეილი</label>
                     <input type="email" id="email" name="email"
-                        placeholder="ჩაწერეთ მეილი..">
+                        placeholder="ჩაწერეთ მეილი.." required>
 
                     <label for="continent">კონტინენტი</label>
-                    <select id="continent" name="continent">
+                    <select id="continent" name="continent" required>
                         <option value="europe">ევროპა</option>
                         <option value="asia">აზია</option>
                         <option value="northAmerica">ჩრდილოეთ ამერიკა</option>
@@ -150,7 +150,8 @@
                     </select>
 
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="რით შემიძლია დაგეხმაროთ?" style="height:200px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="რით შემიძლია დაგეხმაროთ?" style="height:200px" required></textarea>
+                    
                     <input type="submit" value="Submit">
                 </form>
             </div>
